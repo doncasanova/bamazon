@@ -22,8 +22,7 @@ function getProductsByName() {
             for (var i = 0; i < res.length; i++) {
               choiceArray.push(res[i].products_name);
             }
-            return choiceArray;
-            console.log("-----------------------------------");
+            return choiceArray
           },
           message: "What are you looking for?"
         },
